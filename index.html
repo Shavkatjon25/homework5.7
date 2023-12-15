@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+    <div class="flex gap-[48px] mt-20 justify-center">
+
+
+        <div class="w-[379px] h-[388px] ml-10">
+            <div>
+                <h3 class="mb-[6px] opacity-50 text-[19px]">Bill</h3>
+            </div>
+            <div class="flex bg-slate-200 mb-[40px] justify-between p-1 rounded-md">
+                <h2>$</h2>
+                <h2 class="font-bold text-[20px] ">142.55</h2>
+            </div>
+            <div class="mb-[16px]">
+                <h3 class="font-bold opacity-50 text-[20px] font-mono">Select Tip %</h3>
+            </div>
+            <div class="grid w-[379px] h-[112px] gap-2 grid-cols-3 grid-rows-2 mb-[40px] " id="otta">
+                <h2 class="btn btn-neutral font-bold text-[20px] " id="a5">5%</h2>
+                <h2 class="btn btn-neutral font-bold text-[20px] " id="a10">10%</h2>
+                <h2 class="btn btn-neutral font-bold text-[20px] " id="a15">15%</h2>
+                <h2 class="btn btn-neutral font-bold text-[20px] " id="a25">25%</h2>
+                <h2 class="btn btn-neutral font-bold text-[20px] " id="a50">50%</h2>
+                <h2 class="btn btn-active btn-ghost font-bold text-[20px]" id="xx">Custom</h2>
+            </div>
+            <div class="mb-[6px]">
+                <h3 class="opacity-50 text-[18px] font-bold font-mono">Number of People</h3>
+            </div>
+            <div>
+                <button class="btn absolute ml-[300px] mt-[-4px] jonadi" id="jonat">Jo'natish</button>
+                <h1 class="absolute mt-[10px] ml-2" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25"><path d="M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"></path></svg></h1>
+                <input type="number" class="bg-slate-200 p-[6px] w-full rounded-md text-end pr-[70px] text-[20px]" id="int">
+            </div>
+        </div>
+
+
+
+
+        <div class="w-[413px] h-[417px] bg-[#00474B] rounded-[30px] p-10 text-white">
+            <div class="flex justify-between">
+                <div>
+                    <h2 class="text-[20px]">Tip Amount</h2>
+                    <p class="text-[15px] opacity-50">/ person</p>
+                </div>
+                <div>
+                    <h1 class="text-[30px] choy">$</h1>
+                </div>
+            </div>
+            <div class="flex justify-between mt-[25px] mb-[132px]">
+                <div>
+                    <h2 class="text-[20px]">Total</h2>
+                    <p class="text-[15px] opacity-50">/ person</p>
+                </div>
+                <div>
+                    <h1 class="text-[30px] umumiy">$</h1>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-primary w-full text-[28px]">RESET</button>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
